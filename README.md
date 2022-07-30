@@ -16,5 +16,6 @@ Result:- 'FINAL RESULT ' is the generated password.
 Note:-This is 100% safe. and make sure you remeber the password.After the execution this won't save any of your password's.
       And I'am not responsible if your password is leaked or cracked.The resulted password is 99.999999% secure and not be cracked , there might be 0.000001% chance is         posible to crack.
 
+Execution:- One can copy this 'GENERATOR.java' file or add this 'Password.jar' file to project folder.
 
 THANK YOU
