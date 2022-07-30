@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * @author SREENATH YADAV
  * */
-class RandomizerPassword{
+public class RandomizerPassword{
     private final Random r = new Random();
     private String randAlphaInt;
      private int position1 , position2,position3;
@@ -155,18 +155,19 @@ private String alphaInt(){
 /**
  * @author SREENATH YADAV
  * */
-public class Test {
-	public static void main(String[] args){
+//-----------------------OPTIONAL CASE TO RUN THIS DEMO--------------------------------
+//public class Test {
+// 	public static void main(String[] args){
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("ENTER THE PRIMARY-KEY : ");
-		String key = scanner.nextLine();
-		RandomizerPassword random = new RandomizerPassword();//THIS CLASS SHOUHLD NOT EXTEDED BY MAIN METHOD,AS MAIN METHOD IS STATIC.
-		random.analize(key);
-		scanner.close();
-		System.out.println("'FINAL RESULT ' is the generated password...");
+// 		Scanner scanner = new Scanner(System.in);
+// 		System.out.println("ENTER THE PRIMARY-KEY : ");
+// 		String key = scanner.nextLine();
+// 		RandomizerPassword random = new RandomizerPassword();//THIS CLASS SHOUHLD NOT EXTEDED BY MAIN METHOD,AS MAIN METHOD IS STATIC.
+// 		random.analize(key);
+// 		scanner.close();
+// 		System.out.println("'FINAL RESULT ' is the generated password...");
 		
-	}
-}
+// 	}
+//}
 
 
