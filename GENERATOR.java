@@ -1,5 +1,5 @@
-package opener;//EDIT YOUR PACKAGE NAME
-
+//FOR MORE VIST:-https://github.com/sreenathyadavk
+package Generator;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -19,6 +19,10 @@ public class RandomizerPassword{
         * provide --PRIMANRY KEY-- as parameter
         * @author SREENATH YADAV
         * */
+     public void start(String pass) {
+    	 System.out.println("START METHOD CALLED! & STARTING ANALIZER FUNCTION. ");
+    	 analize(pass);
+     }
     String analize(String pass){
         passSize = pass.length();
 
@@ -149,7 +153,7 @@ private String alphaInt(){
         }
         return "Int";
     }
-}
+}//THANK YOU...
 
 
 /**
