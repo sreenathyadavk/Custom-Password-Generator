@@ -8,7 +8,7 @@ Technolgies used:-
 Make sure edit the package name in the test.java file
 Author:-SREENATHYADAVK.
 About Primary-key:- 
-                  When you run the file , it ask's to enter the primary-key : you can have your name,mobile number,etc ,but that should be minimum 5 characters.
+                  When the file run's, it ask's to enter the primary-key : you can have your name,mobile number,etc ,but that should be minimum 5 characters.
                   and make sure the primary key should be memorable.
                   
             
